@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../html.xsl'?>
+<report doctype="summary">
+    <testcase tcid="da5adb84-64b1-4ab8-97bf-39a2ffc42635" uname="TC02_ValidateMemberInformationInCACMatchesWithCCA_1" runid="f731239d-a9a8-4867-a136-6858c75b72df">
+        <name>TC02_ValidateMemberInformationInCACMatchesWithCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>07:08:20</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>126.0.6478.115</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>07:08:25</endtime>
+        <pass>2</pass>
+        <fail>1</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>1</rStepCounter>
+        <bStepCounter>1</bStepCounter>
+        <resultFolderPath>TC02_ValidateMemberInformationInCACMatchesWithCCA_1_070820</resultFolderPath>
+        <resultFileName>TC02_ValidateMemberInformationInCACMatchesWithCCA_1_070820</resultFileName>
+    </testcase>
+    <summary runid="f731239d-a9a8-4867-a136-6858c75b72df">
+        <title>Automation Testing Execution Result</title>
+        <startTime>06-25-2024 07-08-20_PM IST</startTime>
+        <endTime>06-25-2024 07-08-25_PM IST</endTime>
+        <environment>QA</environment>
+        <build>11102018</build>
+        <tcpass>0</tcpass>
+        <tcfail>1</tcfail>
+        <tcwarning>0</tcwarning>
+        <tctotal>1</tctotal>
+    </summary>
+</report>

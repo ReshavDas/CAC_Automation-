@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../html.xsl'?>
+<report doctype="summary">
+    <testcase tcid="fdb7abd8-3f03-496d-82e3-861f90145c00" uname="TC01_PreRequisiteToClearAssessmentHistoryInCCA_1" runid="8615125f-cb7b-4037-97f6-f4f6fb1fb0f4">
+        <name>TC01_PreRequisiteToClearAssessmentHistoryInCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>02:36:48</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>125.0.6422.76</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Pass</status>
+        <endtime>02:37:18</endtime>
+        <pass>11</pass>
+        <fail>0</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>9</rStepCounter>
+        <bStepCounter>2</bStepCounter>
+        <resultFolderPath>TC01_PreRequisiteToClearAssessmentHistoryInCCA_1_023648</resultFolderPath>
+        <resultFileName>TC01_PreRequisiteToClearAssessmentHistoryInCCA_1_023648</resultFileName>
+    </testcase>
+    <summary runid="8615125f-cb7b-4037-97f6-f4f6fb1fb0f4">
+        <title>Automation Testing Execution Result</title>
+        <startTime>05-23-2024 02-36-47_PM IST</startTime>
+        <endTime>05-23-2024 02-37-19_PM IST</endTime>
+        <environment>QA</environment>
+        <build>11102018</build>
+        <tcpass>1</tcpass>
+        <tcfail>0</tcfail>
+        <tcwarning>0</tcwarning>
+        <tctotal>1</tctotal>
+    </summary>
+</report>

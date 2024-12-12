@@ -1,0 +1,96 @@
+<Entity Type="run">
+   <Fields>
+      <Field Name="user-03">
+         <Value></Value>
+      </Field>
+      <Field Name="user-02">
+          <Value></Value>
+      </Field>
+      <Field Name="test-instance">
+         <Value>1</Value>
+      </Field>
+      <Field Name="execution-date">
+          <Value>EXEC_DATE</Value>
+      </Field>
+      <Field Name="state">
+          <Value></Value>
+      </Field>
+      <Field Name="os-config">
+         <Value></Value>
+      </Field>
+      <Field Name="name">
+         <Value>TEST_CASE_NAME</Value>
+      </Field>
+      <Field Name="path">
+          <Value></Value>
+      </Field>
+      <Field Name="pinned-baseline">
+          <Value></Value>
+      </Field>
+      <Field Name="vc-version-number"/>
+      <Field Name="os-build">
+         <Value>Build 7601</Value>
+      </Field>
+      <Field Name="testcycl-id">
+         <Value>TEST_INSTACE_ID</Value>
+      </Field>
+      <Field Name="cycle-id">
+         <Value>TEST_SET_ID</Value>
+      </Field>
+      <Field Name="cycle">
+          <Value></Value>
+      </Field>
+      <Field Name="host">
+         <Value>HOST_NAME</Value>
+      </Field>
+      <Field Name="assign-rcyc">
+          <Value></Value>
+      </Field>
+      <Field Name="last-modified">
+          <Value></Value>
+      </Field>
+      <Field Name="status">
+         <Value>STATUS</Value>
+      </Field>
+      <Field Name="os-name">
+         <Value>OS_NAME</Value>
+      </Field>
+      <Field Name="attachment">
+         <Value>ATTACHMENT</Value>
+      </Field>
+      <Field Name="iters-params-values">
+          <Value></Value>
+      </Field>
+      <Field Name="test-id">
+         <Value>TEST_ID</Value>
+      </Field>
+      <Field Name="subtype-id">
+         <Value>hp.qc.run.VAPI-XP-TEST</Value>
+      </Field>
+      <Field Name="draft">
+         <Value>N</Value>
+      </Field>
+      <Field Name="iters-sum-status">
+          <Value></Value>
+      </Field>
+      <Field Name="duration">
+         <Value>1</Value>
+      </Field>
+      <Field Name="owner">
+         <Value>OWNER</Value>
+      </Field>
+      <Field Name="bpta-change-detected"/>
+      <Field Name="execution-time">
+         <Value>EXEC_TIME</Value>
+      </Field>
+      <Field Name="bpta-change-awareness">
+         <Value></Value>
+      </Field>
+      <Field Name="comments">
+          <Value>COMMENT</Value>
+      </Field>
+      <Field Name="os-sp">
+         <Value>Service Pack 1</Value>
+      </Field>
+   </Fields>
+</Entity>

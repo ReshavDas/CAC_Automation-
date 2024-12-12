@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../html.xsl'?>
+<report doctype="summary">
+    <testcase tcid="58c1dc93-a5d9-4188-91ea-531916b039b3" uname="TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1" runid="3b69c620-e672-491a-aa1f-8d97011d3c6a">
+        <name>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>12:06:03</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>129.0.6668.90</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>12:07:23</endtime>
+        <pass>8</pass>
+        <fail>2</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>1</rStepCounter>
+        <bStepCounter>4</bStepCounter>
+        <resultFolderPath>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1_120603</resultFolderPath>
+        <resultFileName>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1_120603</resultFileName>
+    </testcase>
+    <summary runid="3b69c620-e672-491a-aa1f-8d97011d3c6a">
+        <title>Automation Testing Execution Result</title>
+        <startTime>10-07-2024 12-06-03_PM IST</startTime>
+        <endTime>10-07-2024 12-07-23_PM IST</endTime>
+        <environment>QA</environment>
+        <build>11102018</build>
+        <tcpass>0</tcpass>
+        <tcfail>1</tcfail>
+        <tcwarning>0</tcwarning>
+        <tctotal>1</tctotal>
+    </summary>
+</report>

@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../../html.xsl'?>
+<report doctype="testcase">
+    <testcase tcid="efe91bc9-d534-494c-a08d-fae9665d95c3" uname="TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1" runid="1a869899-3183-4a26-8c01-d571446bcb82">
+        <name>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>05:32:38</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>131.0.6778.86</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>05:32:57</endtime>
+        <pass>4</pass>
+        <fail>1</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>6</rStepCounter>
+        <bStepCounter>1</bStepCounter>
+        <resultFolderPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_053238</resultFolderPath>
+        <resultFileName>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_053238</resultFileName>
+    </testcase>
+    <step stepid="0.1" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>Test Data File: testData/testData.xlsx</description>
+        <status>Done</status>
+        <time>05:32:39</time>
+    </step>
+    <step stepid="0.2" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>Data Factory File: testData/dataFactory.xlsx</description>
+        <status>Done</status>
+        <time>05:32:39</time>
+    </step>
+    <step stepid="0.3" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>Valid License Key</description>
+        <status>Pass</status>
+        <time>05:32:39</time>
+    </step>
+    <step stepid="0.4" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>Rerun Pass Test case Flag is : false</description>
+        <status>Pass</status>
+        <time>05:32:39</time>
+    </step>
+    <step stepid="1" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>Launching CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>05:32:39</time>
+    </step>
+    <step stepid="1.1" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>CCA Application Title Matched</description>
+        <status>Pass</status>
+        <time>05:32:41</time>
+    </step>
+    <step stepid="1.2" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>CCA Application Launched Successfully</description>
+        <status>Pass</status>
+        <time>05:32:41</time>
+        <screenshot>ss_1_2.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_053238\ss_1_2.png</screenShotPath>
+    </step>
+    <step stepid="1.3" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>_UsrNm entered as ODECAE.User25</description>
+        <status>Done</status>
+        <time>05:32:42</time>
+    </step>
+    <step stepid="1.4" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>_Pwd is entered</description>
+        <status>Done</status>
+        <time>05:32:42</time>
+    </step>
+    <step stepid="1.5" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>Btn_Submit is clicked</description>
+        <status>Done</status>
+        <time>05:32:42</time>
+    </step>
+    <step stepid="1.6" tcid="efe91bc9-d534-494c-a08d-fae9665d95c3">
+        <description>Exception Occured due to : org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Your password will expire in 4 days.  Click OK to change your password.}
+  (Session info: chrome=131.0.6778.86): Your password will expire in 4 days.  Click OK to change your password.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PH-212965-RP2WB', ip: '10.131.132.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\2129653\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 314c2becb570917960ffe84a710c734b</description>
+        <status>Fail</status>
+        <time>05:32:55</time>
+        <screenshot>ss_1_6.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_053238\ss_1_6.png</screenShotPath>
+    </step>
+</report>

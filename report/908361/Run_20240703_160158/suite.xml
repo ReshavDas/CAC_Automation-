@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../html.xsl'?>
+<report doctype="summary">
+    <testcase tcid="976a89c4-59ed-4e57-9422-ebf7427fc1ac" uname="TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1" runid="7f4f60cb-20f7-496b-af54-e7811a4c208f">
+        <name>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>04:01:59</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>126.0.6478.127</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>04:24:50</endtime>
+        <pass>47</pass>
+        <fail>2</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>44</rStepCounter>
+        <bStepCounter>4</bStepCounter>
+        <resultFolderPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_040159</resultFolderPath>
+        <resultFileName>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_040159</resultFileName>
+    </testcase>
+    <summary runid="7f4f60cb-20f7-496b-af54-e7811a4c208f">
+        <title>Automation Testing Execution Result</title>
+        <startTime>07-03-2024 04-01-58_PM IST</startTime>
+        <endTime>07-03-2024 04-24-50_PM IST</endTime>
+        <environment>QA</environment>
+        <build>11102018</build>
+        <tcpass>0</tcpass>
+        <tcfail>1</tcfail>
+        <tcwarning>0</tcwarning>
+        <tctotal>1</tctotal>
+    </summary>
+</report>

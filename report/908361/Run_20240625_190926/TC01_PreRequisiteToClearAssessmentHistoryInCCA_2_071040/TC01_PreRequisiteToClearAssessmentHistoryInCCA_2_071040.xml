@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../../html.xsl'?>
+<report doctype="testcase">
+    <testcase tcid="f4e8ca7e-bbb7-4eda-8587-c8a37865c4c8" uname="TC01_PreRequisiteToClearAssessmentHistoryInCCA_2" runid="ef5c9587-8ea6-4cc2-8250-a12e5105d3d1">
+        <name>TC01_PreRequisiteToClearAssessmentHistoryInCCA</name>
+        <description>No description available</description>
+        <iteration>2</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>07:10:40</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>126.0.6478.115</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>07:11:39</endtime>
+        <pass>4</pass>
+        <fail>2</fail>
+        <warning>1</warning>
+        <skip>0</skip>
+        <rStepCounter>8</rStepCounter>
+        <bStepCounter>1</bStepCounter>
+        <resultFolderPath>TC01_PreRequisiteToClearAssessmentHistoryInCCA_2_071040</resultFolderPath>
+        <resultFileName>TC01_PreRequisiteToClearAssessmentHistoryInCCA_2_071040</resultFileName>
+    </testcase>
+    <step stepid="1.7" tcid="f4e8ca7e-bbb7-4eda-8587-c8a37865c4c8">
+        <description>Driver initialization failed</description>
+        <status>Warn</status>
+        <time>07:11:37</time>
+        <screenshot>ss_1_7.png</screenshot>
+        <screenShotPath>TC01_PreRequisiteToClearAssessmentHistoryInCCA_2_071040\ss_1_7.png</screenShotPath>
+    </step>
+    <step stepid="1.8" tcid="f4e8ca7e-bbb7-4eda-8587-c8a37865c4c8">
+        <description>Exception Occured due to : java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null</description>
+        <status>Fail</status>
+        <time>07:11:38</time>
+        <screenshot>ss_1_8.png</screenshot>
+        <screenShotPath>TC01_PreRequisiteToClearAssessmentHistoryInCCA_2_071040\ss_1_8.png</screenShotPath>
+    </step>
+</report>

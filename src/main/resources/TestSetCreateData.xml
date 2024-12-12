@@ -1,0 +1,23 @@
+<Entity Type="test-set">
+    <Fields>
+        <Field Name="description">
+            <Value></Value>
+        </Field>
+        <Field Name="name">
+            <Value>TESTSET_NAME</Value>
+        </Field>
+        <Field Name="status">
+            <Value>Open</Value>
+        </Field>
+        <Field Name="open-date">
+            <Value>OPEN_DATE</Value>
+        </Field>
+       <Field Name="subtype-id">
+            <Value>hp.qc.test-set.default</Value>
+        </Field>
+        <Field Name="parent-id">
+            <Value>PARENT_ID</Value>
+        </Field>
+    </Fields>
+</Entity>
+

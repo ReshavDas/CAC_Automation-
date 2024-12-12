@@ -1,0 +1,306 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../../html.xsl'?>
+<report doctype="testcase">
+    <testcase tcid="d583e75c-e118-429b-a373-662c8c2651c8" uname="TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1" runid="9c7409d5-7000-4048-af6c-4b5d973dc7ed">
+        <name>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>12:06:25</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>130.0.6723.117</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>12:09:59</endtime>
+        <pass>29</pass>
+        <fail>1</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>32</rStepCounter>
+        <bStepCounter>2</bStepCounter>
+        <resultFolderPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625</resultFolderPath>
+        <resultFileName>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625</resultFileName>
+    </testcase>
+    <step stepid="0.1" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Test Data File: testData/testData.xlsx</description>
+        <status>Done</status>
+        <time>12:06:25</time>
+    </step>
+    <step stepid="0.2" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Data Factory File: testData/dataFactory.xlsx</description>
+        <status>Done</status>
+        <time>12:06:25</time>
+    </step>
+    <step stepid="0.3" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Valid License Key</description>
+        <status>Pass</status>
+        <time>12:06:25</time>
+    </step>
+    <step stepid="0.4" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Rerun Pass Test case Flag is : false</description>
+        <status>Pass</status>
+        <time>12:06:25</time>
+    </step>
+    <step stepid="1" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Launching CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>12:06:25</time>
+    </step>
+    <step stepid="1.1" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA Application Title Matched</description>
+        <status>Pass</status>
+        <time>12:06:28</time>
+    </step>
+    <step stepid="1.2" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA Application Launched Successfully</description>
+        <status>Pass</status>
+        <time>12:06:28</time>
+        <screenshot>ss_1_2.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_1_2.png</screenShotPath>
+    </step>
+    <step stepid="1.3" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>_UsrNm entered as ODECAE.User25</description>
+        <status>Done</status>
+        <time>12:06:28</time>
+    </step>
+    <step stepid="1.4" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>_Pwd is entered</description>
+        <status>Done</status>
+        <time>12:06:29</time>
+    </step>
+    <step stepid="1.5" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Btn_Submit is clicked</description>
+        <status>Done</status>
+        <time>12:06:29</time>
+    </step>
+    <step stepid="1.6" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA Application Logged In Successfully</description>
+        <status>Pass</status>
+        <time>12:06:37</time>
+        <screenshot>ss_1_6.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_1_6.png</screenShotPath>
+    </step>
+    <step stepid="2" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Validate CAD Initial Assessment Page Components And Items In CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>12:06:37</time>
+    </step>
+    <step stepid="2.1" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>My Work Assignment Icon Is Enabled</description>
+        <status>Pass</status>
+        <time>12:06:37</time>
+    </step>
+    <step stepid="2.2" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>My_Work_Assignment_Icon is clicked</description>
+        <status>Done</status>
+        <time>12:06:37</time>
+    </step>
+    <step stepid="2.3" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>My Work Assignment Page Header Is Matched As Expected</description>
+        <status>Pass</status>
+        <time>12:06:39</time>
+    </step>
+    <step stepid="2.4" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>First Name Column Is Present In Table</description>
+        <status>Done</status>
+        <time>12:06:41</time>
+    </step>
+    <step stepid="2.5" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Screenshot For 18 Members Are Present In CCA Application</description>
+        <status>Pass</status>
+        <time>12:06:43</time>
+        <screenshot>ss_2_5.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_5.png</screenShotPath>
+    </step>
+    <step stepid="2.6" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA Member 1 Information:
+
+CCA Member First Name : KELSEY
+CCA Member Last Name : ADAMS
+CCA Member Subscriber ID : FGK447849184
+CCA Member Subscriber Suffix : 1
+CCA Member Relationship : M Subscriber
+CCA Member Gender : F
+CCA Member Group ID : 10666
+CCA Member Date Of Birth : 1/1/2010
+CCA Member City : Belcourt
+CCA Member State : ND</description>
+        <status>Done</status>
+        <time>12:06:52</time>
+    </step>
+    <step stepid="2.7" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Assessment Icon Is Enabled</description>
+        <status>Pass</status>
+        <time>12:06:52</time>
+    </step>
+    <step stepid="2.8" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA_Assessment_Icon is clicked</description>
+        <status>Done</status>
+        <time>12:06:52</time>
+    </step>
+    <step stepid="2.9" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA Assessment Page Title Is Matched</description>
+        <status>Pass</status>
+        <time>12:06:54</time>
+    </step>
+    <step stepid="2.10" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA Assessment Page Header Is Matched</description>
+        <status>Pass</status>
+        <time>12:06:54</time>
+    </step>
+    <step stepid="2.11" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA_Search_Assessment_Name entered as Asthma Initial Assessment</description>
+        <status>Done</status>
+        <time>12:06:54</time>
+    </step>
+    <step stepid="2.12" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Screenshot For CCA Asthma Initial Assessment Is Available</description>
+        <status>Pass</status>
+        <time>12:06:59</time>
+        <screenshot>ss_2_12.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_12.png</screenShotPath>
+    </step>
+    <step stepid="2.13" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA_Select_CIA_Assessment is clicked</description>
+        <status>Done</status>
+        <time>12:06:59</time>
+    </step>
+    <step stepid="2.14" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Take Assessment Button Is Enabled</description>
+        <status>Pass</status>
+        <time>12:06:59</time>
+    </step>
+    <step stepid="2.15" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA_Take_Assessment_Button is clicked</description>
+        <status>Done</status>
+        <time>12:07:03</time>
+    </step>
+    <step stepid="2.16" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>CCA Asthma Initial Assessment Page Header Is Matched</description>
+        <status>Pass</status>
+        <time>12:07:03</time>
+        <screenshot>ss_2_16.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_16.png</screenShotPath>
+    </step>
+    <step stepid="2.17" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:07:03</time>
+        <screenshot>ss_2_17.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_17.png</screenShotPath>
+    </step>
+    <step stepid="2.18" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:07:05</time>
+        <screenshot>ss_2_18.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_18.png</screenShotPath>
+    </step>
+    <step stepid="2.19" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:07:05</time>
+        <screenshot>ss_2_19.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_19.png</screenShotPath>
+    </step>
+    <step stepid="2.20" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:07:06</time>
+        <screenshot>ss_2_20.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_20.png</screenShotPath>
+    </step>
+    <step stepid="2.21" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first two checkboxes</description>
+        <status>Pass</status>
+        <time>12:07:13</time>
+        <screenshot>ss_2_21.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_21.png</screenShotPath>
+    </step>
+    <step stepid="2.22" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first two checkboxes</description>
+        <status>Pass</status>
+        <time>12:07:34</time>
+        <screenshot>ss_2_22.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_22.png</screenShotPath>
+    </step>
+    <step stepid="2.23" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first two checkboxes</description>
+        <status>Pass</status>
+        <time>12:08:10</time>
+        <screenshot>ss_2_23.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_23.png</screenShotPath>
+    </step>
+    <step stepid="2.24" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:08:11</time>
+        <screenshot>ss_2_24.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_24.png</screenShotPath>
+    </step>
+    <step stepid="2.25" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:08:25</time>
+        <screenshot>ss_2_25.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_25.png</screenShotPath>
+    </step>
+    <step stepid="2.26" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:08:25</time>
+        <screenshot>ss_2_26.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_26.png</screenShotPath>
+    </step>
+    <step stepid="2.27" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:08:25</time>
+        <screenshot>ss_2_27.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_27.png</screenShotPath>
+    </step>
+    <step stepid="2.28" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:08:26</time>
+        <screenshot>ss_2_28.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_28.png</screenShotPath>
+    </step>
+    <step stepid="2.29" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first two checkboxes</description>
+        <status>Pass</status>
+        <time>12:08:35</time>
+        <screenshot>ss_2_29.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_29.png</screenShotPath>
+    </step>
+    <step stepid="2.30" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:09:03</time>
+        <screenshot>ss_2_30.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_30.png</screenShotPath>
+    </step>
+    <step stepid="2.31" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Selected the first Radio Button</description>
+        <status>Pass</status>
+        <time>12:09:29</time>
+        <screenshot>ss_2_31.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_31.png</screenShotPath>
+    </step>
+    <step stepid="2.32" tcid="d583e75c-e118-429b-a373-662c8c2651c8">
+        <description>Exception Occured due to : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//select[contains(@id,'cphBody_cphContent_HRAWizard1')]"}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PH-212965-RP2WB', ip: '10.131.132.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\2129653\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fba3544a08adcae2766f03fd2de0829
+*** Element info: {Using=xpath, value=.//select[contains(@id,'cphBody_cphContent_HRAWizard1')]}</description>
+        <status>Fail</status>
+        <time>12:09:57</time>
+        <screenshot>ss_2_32.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_120625\ss_2_32.png</screenShotPath>
+    </step>
+</report>

@@ -1,0 +1,228 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../../html.xsl'?>
+<report doctype="testcase">
+    <testcase tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9" uname="TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1" runid="80df1c71-8efd-41b4-b892-1119841a1589">
+        <name>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>03:22:35</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>130.0.6723.117</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>03:27:56</endtime>
+        <pass>14</pass>
+        <fail>3</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>1</rStepCounter>
+        <bStepCounter>4</bStepCounter>
+        <resultFolderPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_032235</resultFolderPath>
+        <resultFileName>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_032235</resultFileName>
+    </testcase>
+    <step stepid="0.1" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Test Data File: testData/testData.xlsx</description>
+        <status>Done</status>
+        <time>03:22:35</time>
+    </step>
+    <step stepid="0.2" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Data Factory File: testData/dataFactory.xlsx</description>
+        <status>Done</status>
+        <time>03:22:35</time>
+    </step>
+    <step stepid="0.3" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Valid License Key</description>
+        <status>Pass</status>
+        <time>03:22:35</time>
+    </step>
+    <step stepid="0.4" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Rerun Pass Test case Flag is : false</description>
+        <status>Pass</status>
+        <time>03:22:35</time>
+    </step>
+    <step stepid="1" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Launching CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>03:22:35</time>
+    </step>
+    <step stepid="1.1" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA Application Title Matched</description>
+        <status>Pass</status>
+        <time>03:22:37</time>
+    </step>
+    <step stepid="1.2" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA Application Launched Successfully</description>
+        <status>Pass</status>
+        <time>03:22:38</time>
+        <screenshot>ss_1_2.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_032235\ss_1_2.png</screenShotPath>
+    </step>
+    <step stepid="1.3" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>_UsrNm entered as ODECAE.User25</description>
+        <status>Done</status>
+        <time>03:22:38</time>
+    </step>
+    <step stepid="1.4" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>_Pwd is entered</description>
+        <status>Done</status>
+        <time>03:22:38</time>
+    </step>
+    <step stepid="1.5" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Btn_Submit is clicked</description>
+        <status>Done</status>
+        <time>03:22:38</time>
+    </step>
+    <step stepid="1.6" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA Application Logged In Successfully</description>
+        <status>Pass</status>
+        <time>03:22:48</time>
+        <screenshot>ss_1_6.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_032235\ss_1_6.png</screenShotPath>
+    </step>
+    <step stepid="2" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Validate CAD Initial Assessment Page Components And Items In CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>03:22:48</time>
+    </step>
+    <step stepid="2.1" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>My Work Assignment Icon Is Enabled</description>
+        <status>Pass</status>
+        <time>03:22:48</time>
+    </step>
+    <step stepid="2.2" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>My_Work_Assignment_Icon is clicked</description>
+        <status>Done</status>
+        <time>03:22:49</time>
+    </step>
+    <step stepid="2.3" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>My Work Assignment Page Header Is Matched As Expected</description>
+        <status>Pass</status>
+        <time>03:22:50</time>
+    </step>
+    <step stepid="2.4" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>First Name Column Is Present In Table</description>
+        <status>Done</status>
+        <time>03:22:52</time>
+    </step>
+    <step stepid="2.5" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Screenshot For 18 Members Are Present In CCA Application</description>
+        <status>Pass</status>
+        <time>03:22:54</time>
+        <screenshot>ss_2_5.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_032235\ss_2_5.png</screenShotPath>
+    </step>
+    <step stepid="2.6" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA Member 1 Information:
+
+CCA Member First Name : KELSEY
+CCA Member Last Name : ADAMS
+CCA Member Subscriber ID : FGK447849184
+CCA Member Subscriber Suffix : 1
+CCA Member Relationship : M Subscriber
+CCA Member Gender : F
+CCA Member Group ID : 10666
+CCA Member Date Of Birth : 1/1/2010
+CCA Member City : Belcourt
+CCA Member State : ND</description>
+        <status>Done</status>
+        <time>03:23:01</time>
+    </step>
+    <step stepid="2.7" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Assessment Icon Is Enabled</description>
+        <status>Pass</status>
+        <time>03:23:01</time>
+    </step>
+    <step stepid="2.8" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA_Assessment_Icon is clicked</description>
+        <status>Done</status>
+        <time>03:23:01</time>
+    </step>
+    <step stepid="2.9" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA Assessment Page Title Is Matched</description>
+        <status>Pass</status>
+        <time>03:23:03</time>
+    </step>
+    <step stepid="2.10" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA Assessment Page Header Is Matched</description>
+        <status>Pass</status>
+        <time>03:23:03</time>
+    </step>
+    <step stepid="2.11" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA_Search_Assessment_Name entered as Diabetes Initial Assessment</description>
+        <status>Done</status>
+        <time>03:23:04</time>
+    </step>
+    <step stepid="2.12" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Screenshot For CCA Diabetes Initial Assessment Is Available</description>
+        <status>Pass</status>
+        <time>03:23:09</time>
+        <screenshot>ss_2_12.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_032235\ss_2_12.png</screenShotPath>
+    </step>
+    <step stepid="2.13" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA_Select_CIA_Assessment is clicked</description>
+        <status>Done</status>
+        <time>03:23:09</time>
+    </step>
+    <step stepid="2.14" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Take Assessment Button Is Enabled</description>
+        <status>Pass</status>
+        <time>03:23:09</time>
+    </step>
+    <step stepid="2.15" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA_Take_Assessment_Button is clicked</description>
+        <status>Done</status>
+        <time>03:23:12</time>
+    </step>
+    <step stepid="2.16" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA Diabetes Initial Assessment Page Header Is Not Matched</description>
+        <status>Fail</status>
+        <time>03:27:23</time>
+        <screenshot>ss_2_16.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_032235\ss_2_16.png</screenShotPath>
+    </step>
+    <step stepid="2.17" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Abort Button Is Enabled</description>
+        <status>Pass</status>
+        <time>03:27:23</time>
+    </step>
+    <step stepid="2.18" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CCA_CIA_Abort_Button is clicked</description>
+        <status>Done</status>
+        <time>03:27:25</time>
+    </step>
+    <step stepid="3" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Launching CAC Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>03:27:28</time>
+    </step>
+    <step stepid="3.1" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>CAC URL Is Not Working</description>
+        <status>Fail</status>
+        <time>03:27:35</time>
+        <screenshot>ss_3_1.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_032235\ss_3_1.png</screenShotPath>
+    </step>
+    <step stepid="4" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Validate CAD Initial Assessment Page Components And Items In CAC Application Matches With CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>03:27:35</time>
+    </step>
+    <step stepid="4.1" tcid="b0d15b58-ac6c-4ff7-b5f4-c9464c3183b9">
+        <description>Exception Occured due to : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/cac-root/main/cac-member/mat-drawer-container/mat-drawer/div/mat-form-field/div[1]/div/div[2]/input"}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PH-212965-RP2WB', ip: '10.131.132.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\2129653\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56f383d82acefc8ba1136ec3015189d3
+*** Element info: {Using=xpath, value=/html/body/cac-root/main/cac-member/mat-drawer-container/mat-drawer/div/mat-form-field/div[1]/div/div[2]/input}</description>
+        <status>Fail</status>
+        <time>03:27:55</time>
+        <screenshot>ss_4_1.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_032235\ss_4_1.png</screenShotPath>
+    </step>
+</report>

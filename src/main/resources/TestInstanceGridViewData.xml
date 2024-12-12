@@ -1,0 +1,19 @@
+<Entity Type="test-instance">
+   <Fields>
+      <Field Name="host-name">
+         <Value>HOST_NAME</Value>
+      </Field>
+      <Field Name="exec-date">
+         <Value>EXEC_DATE</Value>
+      </Field>
+      <Field Name="exec-time">
+         <Value>EXEC_TIME</Value>
+      </Field>
+      <Field Name="status">
+         <Value>STATUS</Value>
+      </Field>
+      <Field Name="owner">
+         <Value>OWNER</Value>
+      </Field>
+   </Fields>
+</Entity>

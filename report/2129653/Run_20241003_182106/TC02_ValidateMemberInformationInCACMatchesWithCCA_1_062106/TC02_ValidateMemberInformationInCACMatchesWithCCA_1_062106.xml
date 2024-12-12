@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../../html.xsl'?>
+<report doctype="testcase">
+    <testcase tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6" uname="TC02_ValidateMemberInformationInCACMatchesWithCCA_1" runid="709d5649-4e0a-481b-89f3-a49233cac599">
+        <name>TC02_ValidateMemberInformationInCACMatchesWithCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>06:21:06</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>129.0.6668.60</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>06:21:38</endtime>
+        <pass>10</pass>
+        <fail>1</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>8</rStepCounter>
+        <bStepCounter>2</bStepCounter>
+        <resultFolderPath>TC02_ValidateMemberInformationInCACMatchesWithCCA_1_062106</resultFolderPath>
+        <resultFileName>TC02_ValidateMemberInformationInCACMatchesWithCCA_1_062106</resultFileName>
+    </testcase>
+    <step stepid="0.1" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>Test Data File: testData/testData.xlsx</description>
+        <status>Done</status>
+        <time>06:21:06</time>
+    </step>
+    <step stepid="0.2" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>Data Factory File: testData/dataFactory.xlsx</description>
+        <status>Done</status>
+        <time>06:21:06</time>
+    </step>
+    <step stepid="0.3" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>Valid License Key</description>
+        <status>Pass</status>
+        <time>06:21:06</time>
+    </step>
+    <step stepid="0.4" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>Rerun Pass Test case Flag is : false</description>
+        <status>Pass</status>
+        <time>06:21:07</time>
+    </step>
+    <step stepid="1" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>Launching CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>06:21:07</time>
+    </step>
+    <step stepid="1.1" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>CCA Application Title Matched</description>
+        <status>Pass</status>
+        <time>06:21:11</time>
+    </step>
+    <step stepid="1.2" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>CCA Application Launched Successfully</description>
+        <status>Pass</status>
+        <time>06:21:11</time>
+        <screenshot>ss_1_2.png</screenshot>
+        <screenShotPath>TC02_ValidateMemberInformationInCACMatchesWithCCA_1_062106\ss_1_2.png</screenShotPath>
+    </step>
+    <step stepid="1.3" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>_UsrNm entered as ODECAE.User25</description>
+        <status>Done</status>
+        <time>06:21:12</time>
+    </step>
+    <step stepid="1.4" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>_Pwd is entered</description>
+        <status>Done</status>
+        <time>06:21:12</time>
+    </step>
+    <step stepid="1.5" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>Btn_Submit is clicked</description>
+        <status>Done</status>
+        <time>06:21:12</time>
+    </step>
+    <step stepid="1.6" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>CCA Application Logged In Successfully</description>
+        <status>Pass</status>
+        <time>06:21:21</time>
+        <screenshot>ss_1_6.png</screenshot>
+        <screenShotPath>TC02_ValidateMemberInformationInCACMatchesWithCCA_1_062106\ss_1_6.png</screenShotPath>
+    </step>
+    <step stepid="2" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>Validate Member Information In CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>06:21:21</time>
+    </step>
+    <step stepid="2.1" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>My Work Assignment Icon Is Enabled</description>
+        <status>Pass</status>
+        <time>06:21:21</time>
+    </step>
+    <step stepid="2.2" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>My_Work_Assignment_Icon is clicked</description>
+        <status>Done</status>
+        <time>06:21:21</time>
+    </step>
+    <step stepid="2.3" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>My Work Assignment Page Header Is Matched As Expected</description>
+        <status>Pass</status>
+        <time>06:21:22</time>
+    </step>
+    <step stepid="2.4" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>First Name Column Is Present In Table</description>
+        <status>Pass</status>
+        <time>06:21:24</time>
+    </step>
+    <step stepid="2.5" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>First Name Column Is Present In Table</description>
+        <status>Done</status>
+        <time>06:21:24</time>
+    </step>
+    <step stepid="2.6" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>6 Members Are Present In CCA Application</description>
+        <status>Pass</status>
+        <time>06:21:27</time>
+        <screenshot>ss_2_6.png</screenshot>
+        <screenShotPath>TC02_ValidateMemberInformationInCACMatchesWithCCA_1_062106\ss_2_6.png</screenShotPath>
+    </step>
+    <step stepid="2.7" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>My Work Assignment Page: 1</description>
+        <status>Pass</status>
+        <time>06:21:27</time>
+        <screenshot>ss_2_7.png</screenshot>
+        <screenShotPath>TC02_ValidateMemberInformationInCACMatchesWithCCA_1_062106\ss_2_7.png</screenShotPath>
+    </step>
+    <step stepid="2.8" tcid="4edfcd77-c8ba-44db-b132-2f75374a19e6">
+        <description>Exception Occured due to : java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0</description>
+        <status>Fail</status>
+        <time>06:21:36</time>
+        <screenshot>ss_2_8.png</screenshot>
+        <screenShotPath>TC02_ValidateMemberInformationInCACMatchesWithCCA_1_062106\ss_2_8.png</screenShotPath>
+    </step>
+</report>

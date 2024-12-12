@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../../html.xsl'?>
+<report doctype="testcase">
+    <testcase tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba" uname="TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1" runid="875750e1-2f37-4ce7-9f59-3750d6908236">
+        <name>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>03:05:28</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>129.0.6668.59</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>03:06:00</endtime>
+        <pass>8</pass>
+        <fail>1</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>6</rStepCounter>
+        <bStepCounter>2</bStepCounter>
+        <resultFolderPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_030528</resultFolderPath>
+        <resultFileName>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_030528</resultFileName>
+    </testcase>
+    <step stepid="0.1" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>Test Data File: testData/testData.xlsx</description>
+        <status>Done</status>
+        <time>03:05:28</time>
+    </step>
+    <step stepid="0.2" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>Data Factory File: testData/dataFactory.xlsx</description>
+        <status>Done</status>
+        <time>03:05:28</time>
+    </step>
+    <step stepid="0.3" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>Valid License Key</description>
+        <status>Pass</status>
+        <time>03:05:28</time>
+    </step>
+    <step stepid="0.4" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>Rerun Pass Test case Flag is : false</description>
+        <status>Pass</status>
+        <time>03:05:28</time>
+    </step>
+    <step stepid="1" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>Launching CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>03:05:28</time>
+    </step>
+    <step stepid="1.1" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>CCA Application Title Matched</description>
+        <status>Pass</status>
+        <time>03:05:33</time>
+    </step>
+    <step stepid="1.2" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>CCA Application Launched Successfully</description>
+        <status>Pass</status>
+        <time>03:05:33</time>
+        <screenshot>ss_1_2.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_030528\ss_1_2.png</screenShotPath>
+    </step>
+    <step stepid="1.3" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>_UsrNm entered as ODECAE.User25</description>
+        <status>Done</status>
+        <time>03:05:34</time>
+    </step>
+    <step stepid="1.4" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>_Pwd is entered</description>
+        <status>Done</status>
+        <time>03:05:34</time>
+    </step>
+    <step stepid="1.5" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>Btn_Submit is clicked</description>
+        <status>Done</status>
+        <time>03:05:34</time>
+    </step>
+    <step stepid="1.6" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>CCA Application Logged In Successfully</description>
+        <status>Pass</status>
+        <time>03:05:43</time>
+        <screenshot>ss_1_6.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_030528\ss_1_6.png</screenShotPath>
+    </step>
+    <step stepid="2" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>Validate CAD Initial Assessment Page Components And Items In CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>03:05:43</time>
+    </step>
+    <step stepid="2.1" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>My Work Assignment Icon Is Enabled</description>
+        <status>Pass</status>
+        <time>03:05:44</time>
+    </step>
+    <step stepid="2.2" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>My_Work_Assignment_Icon is clicked</description>
+        <status>Done</status>
+        <time>03:05:44</time>
+    </step>
+    <step stepid="2.3" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>My Work Assignment Page Header Is Matched As Expected</description>
+        <status>Pass</status>
+        <time>03:05:45</time>
+    </step>
+    <step stepid="2.4" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>First Name Column Is Present In Table</description>
+        <status>Done</status>
+        <time>03:05:47</time>
+    </step>
+    <step stepid="2.5" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>Screenshot For 6 Members Are Present In CCA Application</description>
+        <status>Pass</status>
+        <time>03:05:50</time>
+        <screenshot>ss_2_5.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_030528\ss_2_5.png</screenShotPath>
+    </step>
+    <step stepid="2.6" tcid="153d66f0-e278-4e42-aa5b-cdd8ebd8acba">
+        <description>Exception Occured due to : java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0</description>
+        <status>Fail</status>
+        <time>03:05:58</time>
+        <screenshot>ss_2_6.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_030528\ss_2_6.png</screenShotPath>
+    </step>
+</report>

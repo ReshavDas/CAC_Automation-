@@ -1,0 +1,164 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../../html.xsl'?>
+<report doctype="testcase">
+    <testcase tcid="58c1dc93-a5d9-4188-91ea-531916b039b3" uname="TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1" runid="3b69c620-e672-491a-aa1f-8d97011d3c6a">
+        <name>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>12:06:03</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>129.0.6668.90</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>12:07:23</endtime>
+        <pass>8</pass>
+        <fail>2</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>1</rStepCounter>
+        <bStepCounter>4</bStepCounter>
+        <resultFolderPath>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1_120603</resultFolderPath>
+        <resultFileName>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1_120603</resultFileName>
+    </testcase>
+    <step stepid="0.1" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Test Data File: testData/testData.xlsx</description>
+        <status>Done</status>
+        <time>12:06:03</time>
+    </step>
+    <step stepid="0.2" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Data Factory File: testData/dataFactory.xlsx</description>
+        <status>Done</status>
+        <time>12:06:03</time>
+    </step>
+    <step stepid="0.3" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Valid License Key</description>
+        <status>Pass</status>
+        <time>12:06:03</time>
+    </step>
+    <step stepid="0.4" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Rerun Pass Test case Flag is : false</description>
+        <status>Pass</status>
+        <time>12:06:03</time>
+    </step>
+    <step stepid="1" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Launching CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>12:06:03</time>
+    </step>
+    <step stepid="1.1" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>CCA Application Title Matched</description>
+        <status>Pass</status>
+        <time>12:06:06</time>
+    </step>
+    <step stepid="1.2" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>CCA Application Launched Successfully</description>
+        <status>Pass</status>
+        <time>12:06:06</time>
+        <screenshot>ss_1_2.png</screenshot>
+        <screenShotPath>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1_120603\ss_1_2.png</screenShotPath>
+    </step>
+    <step stepid="1.3" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>_UsrNm entered as ODECAE.User25</description>
+        <status>Done</status>
+        <time>12:06:06</time>
+    </step>
+    <step stepid="1.4" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>_Pwd is entered</description>
+        <status>Done</status>
+        <time>12:06:07</time>
+    </step>
+    <step stepid="1.5" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Btn_Submit is clicked</description>
+        <status>Done</status>
+        <time>12:06:07</time>
+    </step>
+    <step stepid="1.6" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>CCA Application Logged In Successfully</description>
+        <status>Pass</status>
+        <time>12:06:18</time>
+        <screenshot>ss_1_6.png</screenshot>
+        <screenShotPath>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1_120603\ss_1_6.png</screenShotPath>
+    </step>
+    <step stepid="2" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Capture First Member Information From CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>12:06:18</time>
+    </step>
+    <step stepid="2.1" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>My Work Assignment Icon Is Enabled</description>
+        <status>Pass</status>
+        <time>12:06:18</time>
+    </step>
+    <step stepid="2.2" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>My_Work_Assignment_Icon is clicked</description>
+        <status>Done</status>
+        <time>12:06:18</time>
+    </step>
+    <step stepid="2.3" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>My Work Assignment Page Header Is Matched As Expected</description>
+        <status>Pass</status>
+        <time>12:06:20</time>
+    </step>
+    <step stepid="2.4" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>First Name Column Is Present In Table</description>
+        <status>Done</status>
+        <time>12:06:22</time>
+    </step>
+    <step stepid="2.5" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Screenshot For 6 Members Are Present In CCA Application</description>
+        <status>Pass</status>
+        <time>12:06:24</time>
+        <screenshot>ss_2_5.png</screenshot>
+        <screenShotPath>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1_120603\ss_2_5.png</screenShotPath>
+    </step>
+    <step stepid="2.6" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>CCA Member 1 Information:
+
+CCA Member First Name : PATRICE
+CCA Member Last Name : BARRERA
+CCA Member Subscriber ID : IWY573119193
+CCA Member Subscriber Suffix : 1
+CCA Member Relationship : M Subscriber
+CCA Member Gender : F
+CCA Member Group ID : 10242
+CCA Member Date Of Birth : 7/29/1997
+CCA Member City : Newry
+CCA Member State : SC</description>
+        <status>Done</status>
+        <time>12:06:32</time>
+    </step>
+    <step stepid="3" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Launching CAC Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>12:06:32</time>
+    </step>
+    <step stepid="3.1" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>CAC URL Is Not Working</description>
+        <status>Fail</status>
+        <time>12:06:39</time>
+        <screenshot>ss_3_1.png</screenshot>
+        <screenShotPath>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1_120603\ss_3_1.png</screenShotPath>
+    </step>
+    <step stepid="4" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Validate Complete And Upload Same Assessment In CAC Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>12:06:39</time>
+    </step>
+    <step stepid="4.1" tcid="58c1dc93-a5d9-4188-91ea-531916b039b3">
+        <description>Exception Occured due to : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/cac-root/main/cac-member/mat-drawer-container/mat-drawer/div/mat-form-field/div[1]/div/div[2]/input"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PH-212965-RP2WB', ip: '10.131.132.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\2129653\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa2009e1c8928548db4a220854537819
+*** Element info: {Using=xpath, value=/html/body/cac-root/main/cac-member/mat-drawer-container/mat-drawer/div/mat-form-field/div[1]/div/div[2]/input}</description>
+        <status>Fail</status>
+        <time>12:07:21</time>
+        <screenshot>ss_4_1.png</screenshot>
+        <screenShotPath>TC04_ValidateUploadAndCompleteSameAssessmentInCACAndCCA_1_120603\ss_4_1.png</screenShotPath>
+    </step>
+</report>

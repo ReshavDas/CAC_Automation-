@@ -1,0 +1,184 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href='../../html.xsl'?>
+<report doctype="testcase">
+    <testcase tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360" uname="TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1" runid="360344f9-5331-470a-80b2-6580a5840398">
+        <name>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA</name>
+        <description>No description available</description>
+        <iteration>1</iteration>
+        <day>1</day>
+        <totaldays>1</totaldays>
+        <starttime>12:26:59</starttime>
+        <browserName>Google Chrome</browserName>
+        <browserVersion>130.0.6723.117</browserVersion>
+        <buildVersion>11102018</buildVersion>
+        <status>Fail</status>
+        <endtime>12:29:37</endtime>
+        <pass>13</pass>
+        <fail>1</fail>
+        <warning>0</warning>
+        <skip>0</skip>
+        <rStepCounter>15</rStepCounter>
+        <bStepCounter>2</bStepCounter>
+        <resultFolderPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_122659</resultFolderPath>
+        <resultFileName>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_122659</resultFileName>
+    </testcase>
+    <step stepid="0.1" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Test Data File: testData/testData.xlsx</description>
+        <status>Done</status>
+        <time>12:26:59</time>
+    </step>
+    <step stepid="0.2" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Data Factory File: testData/dataFactory.xlsx</description>
+        <status>Done</status>
+        <time>12:26:59</time>
+    </step>
+    <step stepid="0.3" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Valid License Key</description>
+        <status>Pass</status>
+        <time>12:26:59</time>
+    </step>
+    <step stepid="0.4" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Rerun Pass Test case Flag is : false</description>
+        <status>Pass</status>
+        <time>12:26:59</time>
+    </step>
+    <step stepid="1" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Launching CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>12:26:59</time>
+    </step>
+    <step stepid="1.1" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>CCA Application Title Matched</description>
+        <status>Pass</status>
+        <time>12:27:02</time>
+    </step>
+    <step stepid="1.2" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>CCA Application Launched Successfully</description>
+        <status>Pass</status>
+        <time>12:27:02</time>
+        <screenshot>ss_1_2.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_122659\ss_1_2.png</screenShotPath>
+    </step>
+    <step stepid="1.3" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>_UsrNm entered as ODECAE.User25</description>
+        <status>Done</status>
+        <time>12:27:03</time>
+    </step>
+    <step stepid="1.4" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>_Pwd is entered</description>
+        <status>Done</status>
+        <time>12:27:03</time>
+    </step>
+    <step stepid="1.5" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Btn_Submit is clicked</description>
+        <status>Done</status>
+        <time>12:27:03</time>
+    </step>
+    <step stepid="1.6" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>CCA Application Logged In Successfully</description>
+        <status>Pass</status>
+        <time>12:27:12</time>
+        <screenshot>ss_1_6.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_122659\ss_1_6.png</screenShotPath>
+    </step>
+    <step stepid="2" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Validate CAD Initial Assessment Page Components And Items In CCA Application</description>
+        <status>BUSINESSSTEP</status>
+        <time>12:27:12</time>
+    </step>
+    <step stepid="2.1" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>My Work Assignment Icon Is Enabled</description>
+        <status>Pass</status>
+        <time>12:27:12</time>
+    </step>
+    <step stepid="2.2" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>My_Work_Assignment_Icon is clicked</description>
+        <status>Done</status>
+        <time>12:27:12</time>
+    </step>
+    <step stepid="2.3" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>My Work Assignment Page Header Is Matched As Expected</description>
+        <status>Pass</status>
+        <time>12:27:14</time>
+    </step>
+    <step stepid="2.4" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>First Name Column Is Present In Table</description>
+        <status>Done</status>
+        <time>12:27:16</time>
+    </step>
+    <step stepid="2.5" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Screenshot For 18 Members Are Present In CCA Application</description>
+        <status>Pass</status>
+        <time>12:27:18</time>
+        <screenshot>ss_2_5.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_122659\ss_2_5.png</screenShotPath>
+    </step>
+    <step stepid="2.6" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>CCA Member 1 Information:
+
+CCA Member First Name : KELSEY
+CCA Member Last Name : ADAMS
+CCA Member Subscriber ID : FGK447849184
+CCA Member Subscriber Suffix : 1
+CCA Member Relationship : M Subscriber
+CCA Member Gender : F
+CCA Member Group ID : 10666
+CCA Member Date Of Birth : 1/1/2010
+CCA Member City : Belcourt
+CCA Member State : ND</description>
+        <status>Done</status>
+        <time>12:27:26</time>
+    </step>
+    <step stepid="2.7" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Assessment Icon Is Enabled</description>
+        <status>Pass</status>
+        <time>12:27:26</time>
+    </step>
+    <step stepid="2.8" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>CCA_Assessment_Icon is clicked</description>
+        <status>Done</status>
+        <time>12:27:26</time>
+    </step>
+    <step stepid="2.9" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>CCA Assessment Page Title Is Matched</description>
+        <status>Pass</status>
+        <time>12:27:28</time>
+    </step>
+    <step stepid="2.10" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>CCA Assessment Page Header Is Matched</description>
+        <status>Pass</status>
+        <time>12:27:28</time>
+    </step>
+    <step stepid="2.11" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>CCA_Search_Assessment_Name entered as Asthma Outcomes Assessment</description>
+        <status>Done</status>
+        <time>12:27:29</time>
+    </step>
+    <step stepid="2.12" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Screenshot For CCA Asthma Outcomes Assessment Is Available</description>
+        <status>Pass</status>
+        <time>12:27:34</time>
+        <screenshot>ss_2_12.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_122659\ss_2_12.png</screenShotPath>
+    </step>
+    <step stepid="2.13" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>CCA_Select_CIA_Assessment is clicked</description>
+        <status>Done</status>
+        <time>12:27:34</time>
+    </step>
+    <step stepid="2.14" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Take Assessment Button Is Enabled</description>
+        <status>Pass</status>
+        <time>12:27:34</time>
+    </step>
+    <step stepid="2.15" tcid="f401b15b-eea4-420b-ab6d-e2d50ef73360">
+        <description>Exception Occured due to : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (fedc44e3ee4047fe3c49439e33de5dbd)] -&gt; id: cphBody_cphButtonsTop_btnTakeHRATop] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PH-212965-RP2WB', ip: '10.131.132.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: cts.qea.automation.WrappedWebDriver</description>
+        <status>Fail</status>
+        <time>12:29:35</time>
+        <screenshot>ss_2_15.png</screenshot>
+        <screenShotPath>TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1_122659\ss_2_15.png</screenShotPath>
+    </step>
+</report>
