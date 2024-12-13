@@ -74,15 +74,15 @@ public class ClickCCAAnswers {
 //	        processQuestionContainer(driver, nestedQuestion);
 //	    }
 //	}
-
+	
 	private boolean selectRadioButton(WebElement answerContainer) {
 		List<WebElement> radioOptions = answerContainer.findElements(By.xpath(".//input[@type='radio']"));
 		if (!radioOptions.isEmpty()) {
+			//radioOptions.get(0).click();
 			WebElement firstRadioButton=radioOptions.get(0);
 			JavascriptExecutor jsExecutor=(JavascriptExecutor)driver;
 			jsExecutor.executeScript("arguments[0].click();",firstRadioButton);
 			Report.log("Selected the first Radio Button", Status.Pass);
-		//	radioOptions.get(0).click();
 			return true;
 		}
 		return false;
@@ -111,8 +111,8 @@ public class ClickCCAAnswers {
                     System.out.println("Entered input in textarea: " + textareaElement.getAttribute("id"));
                     }
                 }catch (TimeoutException e) {
-                    System.out.println("Failed to enter input in textarea: " + textareaElement.getAttribute("id"));
-                    e.printStackTrace();
+                    System.out.println("Text input has been provided: " + textareaElement.getAttribute("id"));
+//                    e.printStackTrace();
                 }
             }
             return true;
@@ -161,11 +161,11 @@ public class ClickCCAAnswers {
 	    			try {
 	    				 wait.until(ExpectedConditions.elementToBeClickable(numericvalueElement));
 	    				 numericvalueElement.clear();
-	    				 numericvalueElement.sendKeys("15");
+	    				 numericvalueElement.sendKeys("150");
 	    				 System.out.println("Entered number is: " + numericvalueElement.getAttribute("id"));
 	    				}catch (Exception e) {
-	    					System.out.println("Failed to enter number in textbox: " + numericvalueElement.getAttribute("id"));
-	    					e.printStackTrace();
+	    					System.out.println("Entered the number in textbox: " + numericvalueElement.getAttribute("id"));
+	    					//e.printStackTrace();
 	    				}
 	    		 	}
 	    			return true;

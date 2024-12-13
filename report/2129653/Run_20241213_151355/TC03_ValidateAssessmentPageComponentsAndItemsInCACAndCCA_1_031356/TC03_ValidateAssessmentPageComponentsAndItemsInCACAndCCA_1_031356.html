@@ -1,0 +1,728 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+					body { font-size:12px; background-color:#FFFFFF;
+					margin:0px;font-family:Roboto;}
+					table.container_footer{border:1px
+					solid
+					black;border-collapse:collapse;font-size:12px;margin-top:40px;background-color:E1F5FE;width:30%;margin-left:35%;margin-right:30%;}
+					a:link {color:#03A9F4;}
+					a:visited {color:#009688;}
+					a:hover {color:#f44336;}
+					a:active {color:#03a9f4;}
+					.container {
+					display:table; border:1px solid black; width:95%;margin-left:2%;
+					margin-top:70px; background-color:E1F5FE;padding:5px;}
+					.repheader { padding:18px; background-color:03A9F4;
+					color:white;text-align:center; font-size:120%;font-weight:bold;}
+					.tcpage { width:90%;
+					margin:auto;}
+					.topmenu { position: fixed; left: 0; top: 0; width:
+					100%;}
+					.tc { padding:2px; margin-bottom:4px; margin-top:4px;
+					display:table;width:99%; }
+					.tc .navlink { position:absolute;
+					left:35px; width:25px; margin-left:3px; }
+					.tc .name {
+					position:absolute; font-size:15px; margin-left:4px;}
+					.tc .day {
+					float:right; margin-right:25px; }
+					.tc .time { float:right;
+					margin-right:5px; }
+					.tc .stpcnt { float:right; margin-right:60px; }
+					.tc .desc { margin-top:25px; margin-left:4px;}
+					.tc .pass {
+					border-left:4px solid #4caf50;
+					color:#4caf50;background-color:#e8f5e9; margin-left:25px}
+					/*border:1px solid #4caf50;background-color:#C6EFCE; }*/
+					.tc .fail {
+					border-left:4px solid #f44336;
+					color:#f44336;background-color:#ffebee; margin-left:25px}
+					/*border:1px solid #f44336;background-color:#FFC7CE;}*/
+					.tc .warn
+					{ border-left:4px solid #ff9800;
+					color:#ff9800;background-color:ffe0b2; margin-left:25px}
+					/*border:1px solid #ff9800;background-color:#FFEB9C; }*/
+					.tc .done {
+					border-left:4px solid black; color:black;background-color:D0D0D0;
+					margin-left:25px} /* border:1px solid black; */
+					.step { padding:0px;
+					margin-bottom:0px; margin-top:0px; width:99%; }
+					.step .sno {
+					float:left; margin-left:2px; }
+					.step .status { float:right;
+					width:50px; text-align:left;}
+					.step .time { float:right; width:85px;
+					margin-right:2px; }
+					.step .desc { display:block; margin-right:1px;
+					margin-left:40px; }
+					.step .sat { display:block; margin-right:142px;
+					margin-left:1px; color:blue; }
+					.step .businessstep {color:black;
+					background-color:#80d8ff;margin-top:5px; padding:3px; font-size:13px;}
+					/*background-color:white; }*/
+					.step .keyword {color:white;
+					background-color:996633;margin-top:5px; padding:4px;
+					font-size:14px;}
+					.step .pass
+					{color:#4caf50; background-color:White;
+					padding:3px;}/*background-color:#C6EFCE; }*/
+					.step .fail
+					{color:#f44336; background-color:White; padding:3px;
+					}/*background-color:#FFC7CE; }*/
+					.step .warn {color:#ff9800;
+					background-color:White; padding:3px; }/*background-color:#FFEB9C;
+					}*/
+					.step .done {color:black; background-color:White; padding:3px;
+					}/*background-color:white; }*/
+					.step .sslink {color:black;}
+					.batch {
+					margin:5px; width:600px; padding:3px; }
+					.batch .header { float:left;
+					margin:2px; width:250px; padding:3px;color:white;
+					background-color:#4BACC6; }
+					.batch .header2 { float:left;
+					margin:2px; width:50px; text-align:center;padding:3px; color:white;
+					background-color:#4BACC6; }
+					.batch .pass { float:left; margin:2px;
+					width:50px; text-align:center;padding:3px; color:#4caf50;
+					background-color:#C6EFCE; }
+					.batch .warn { float:left; margin:2px;
+					width:50px; text-align:center;padding:3px; color:#ff9966;
+					background-color:#C6EFCE; }
+					.batch .fail { float:left; margin:2px;
+					width:50px; text-align:center;padding:3px; color:#f44336;
+					background-color:#FFC7CE; }
+					.batch .pending { float:left;
+					margin:2px; width:50px; text-align:center;padding:3px; color:white;
+					background-color:#A6A6A6; }
+					.batch .noscript{ float:left;
+					margin:2px; width:50px; text-align:center;padding:3px; color:white;
+					background-color:white; }
+					.menu { padding:5px; margin:10px;
+					display:table-row; }
+					.button { padding:26px; color:white;
+					background-color:03A9F4; }
+					.button a { color:white; }
+					.meta {
+					display:table; margin-left:50px; margin-bottom:2px;margin-top:5px;
+					}
+					.meta .key {display:inline; width: 150px; font-weight:bold; }
+					.meta .value {display:inline; left:15px; position:relative; }
+					td.meta_key{}
+					td.meta_value{text-align:center;font-weight:bold;}
+					td.meta_value_pass{text-align:center;font-weight:bold;color:#4CAF50}
+					td.meta_value_fail{text-align:center;font-weight:bold;color:#f44336}
+					td.meta_value_warn{text-align:center;font-weight:bold;color:#ff9800}
+					.screenshot .container {position:absolute;height:100%;
+					width:100%;bottom:0; left:0;
+					margin:auto;text-align:center;background:rgba(0,0,0,.7);}
+					.configValues {position: fixed; left: 10; top: 0; width:60%;
+					color:white;background-color:03A9F4;font-size:11px}
+					table.configValues{margin-left:85%;}
+				</style>
+    </head>
+    <body>
+        <div class="topmenu">
+            <div class="button">
+                <a href="../suite.html" style="float:left">&lt; Back To Result Summary</a><a href="./sat.html" style="margin-left:65%">SAT View</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="res">
+                <div class="tc">
+                    <div class="navlink">
+                        <a href="../suite.html" style="text-decoration:none">[-]</a>
+                    </div>
+                    <table class="configValues" style="float:right">
+                        <tr>
+                            <td><b>Browser Name: </b>Google Chrome</td>
+                        </tr>
+                        <tr>
+                            <td><b>Browser Version: </b>131.0.6778.109</td>
+                        </tr>
+                        <tr>
+                            <td><b>Build Version: </b>11102018</td>
+                        </tr>
+                    </table>
+                    <div class="Fail">
+                        <div class="name">TC03_ValidateAssessmentPageComponentsAndItemsInCACAndCCA_1</div>
+                        <div class="time">03:13:56
+					to
+					03:22:51</div>
+                        <div class="stpcnt">
+					Passed:
+					44
+					Failed:
+					1</div>
+                        <div class="day">
+					Day:
+					1
+					of
+					1</div>
+                        <br>
+                        <div class="desc">No description available</div>
+                    </div>
+                </div>
+                <div class="step" id="0.1">
+                    <div class="Done">
+                        <div class="sno">0.1</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:13:56</div>
+                        <div class="desc">Test Data File: testData/testData.xlsx</div>
+                    </div>
+                </div>
+                <div class="step" id="0.2">
+                    <div class="Done">
+                        <div class="sno">0.2</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:13:56</div>
+                        <div class="desc">Data Factory File: testData/dataFactory.xlsx</div>
+                    </div>
+                </div>
+                <div class="step" id="0.3">
+                    <div class="Pass">
+                        <div class="sno">0.3</div>
+                        <div class="status">Pass</div>
+                        <div class="time">03:13:56</div>
+                        <div class="desc">Valid License Key</div>
+                    </div>
+                </div>
+                <div class="step" id="0.4">
+                    <div class="Pass">
+                        <div class="sno">0.4</div>
+                        <div class="status">Pass</div>
+                        <div class="time">03:13:56</div>
+                        <div class="desc">Rerun Pass Test case Flag is : false</div>
+                    </div>
+                </div>
+                <div class="step" id="1">
+                    <div class="BUSINESSSTEP">
+                        <div class="sno">1</div>
+                        <div class="desc">Launching CCA Application</div>
+                    </div>
+                </div>
+                <div class="step" id="1.1">
+                    <div class="Pass">
+                        <div class="sno">1.1</div>
+                        <div class="status">Pass</div>
+                        <div class="time">03:13:59</div>
+                        <div class="desc">CCA Application Title Matched</div>
+                    </div>
+                </div>
+                <div class="step" id="1.2">
+                    <div class="Pass">
+                        <div class="sno">1.2</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_1_2.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:13:59</div>
+                        <div class="desc">CCA Application Launched Successfully</div>
+                    </div>
+                </div>
+                <div class="step" id="1.3">
+                    <div class="Done">
+                        <div class="sno">1.3</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:13:59</div>
+                        <div class="desc">_UsrNm entered as ODECAE.User25</div>
+                    </div>
+                </div>
+                <div class="step" id="1.4">
+                    <div class="Done">
+                        <div class="sno">1.4</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:13:59</div>
+                        <div class="desc">_Pwd is entered</div>
+                    </div>
+                </div>
+                <div class="step" id="1.5">
+                    <div class="Done">
+                        <div class="sno">1.5</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:14:00</div>
+                        <div class="desc">Btn_Submit is clicked</div>
+                    </div>
+                </div>
+                <div class="step" id="1.6">
+                    <div class="Pass">
+                        <div class="sno">1.6</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_1_6.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:14:08</div>
+                        <div class="desc">CCA Application Logged In Successfully</div>
+                    </div>
+                </div>
+                <div class="step" id="2">
+                    <div class="BUSINESSSTEP">
+                        <div class="sno">2</div>
+                        <div class="desc">Validate CAD Initial Assessment Page Components And Items In CCA Application</div>
+                    </div>
+                </div>
+                <div class="step" id="2.1">
+                    <div class="Pass">
+                        <div class="sno">2.1</div>
+                        <div class="status">Pass</div>
+                        <div class="time">03:14:08</div>
+                        <div class="desc">My Work Assignment Icon Is Enabled</div>
+                    </div>
+                </div>
+                <div class="step" id="2.2">
+                    <div class="Done">
+                        <div class="sno">2.2</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:14:08</div>
+                        <div class="desc">My_Work_Assignment_Icon is clicked</div>
+                    </div>
+                </div>
+                <div class="step" id="2.3">
+                    <div class="Pass">
+                        <div class="sno">2.3</div>
+                        <div class="status">Pass</div>
+                        <div class="time">03:14:10</div>
+                        <div class="desc">My Work Assignment Page Header Is Matched As Expected</div>
+                    </div>
+                </div>
+                <div class="step" id="2.4">
+                    <div class="Done">
+                        <div class="sno">2.4</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:14:12</div>
+                        <div class="desc">First Name Column Is Present In Table</div>
+                    </div>
+                </div>
+                <div class="step" id="2.5">
+                    <div class="Pass">
+                        <div class="sno">2.5</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_5.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:14:14</div>
+                        <div class="desc">Screenshot For 19 Members Are Present In CCA Application</div>
+                    </div>
+                </div>
+                <div class="step" id="2.6">
+                    <div class="Done">
+                        <div class="sno">2.6</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:14:21</div>
+                        <div class="desc">CCA Member 1 Information:
+
+CCA Member First Name : KELSEY
+CCA Member Last Name : ADAMS
+CCA Member Subscriber ID : FGK447849184
+CCA Member Subscriber Suffix : 1
+CCA Member Relationship : M Subscriber
+CCA Member Gender : F
+CCA Member Group ID : 10666
+CCA Member Date Of Birth : 1/1/2010
+CCA Member City : Belcourt
+CCA Member State : ND</div>
+                    </div>
+                </div>
+                <div class="step" id="2.7">
+                    <div class="Pass">
+                        <div class="sno">2.7</div>
+                        <div class="status">Pass</div>
+                        <div class="time">03:14:21</div>
+                        <div class="desc">Assessment Icon Is Enabled</div>
+                    </div>
+                </div>
+                <div class="step" id="2.8">
+                    <div class="Done">
+                        <div class="sno">2.8</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:14:21</div>
+                        <div class="desc">CCA_Assessment_Icon is clicked</div>
+                    </div>
+                </div>
+                <div class="step" id="2.9">
+                    <div class="Pass">
+                        <div class="sno">2.9</div>
+                        <div class="status">Pass</div>
+                        <div class="time">03:14:23</div>
+                        <div class="desc">CCA Assessment Page Title Is Matched</div>
+                    </div>
+                </div>
+                <div class="step" id="2.10">
+                    <div class="Pass">
+                        <div class="sno">2.10</div>
+                        <div class="status">Pass</div>
+                        <div class="time">03:14:23</div>
+                        <div class="desc">CCA Assessment Page Header Is Matched</div>
+                    </div>
+                </div>
+                <div class="step" id="2.11">
+                    <div class="Done">
+                        <div class="sno">2.11</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:14:23</div>
+                        <div class="desc">CCA_Search_Assessment_Name entered as CAD Initial Assessment</div>
+                    </div>
+                </div>
+                <div class="step" id="2.12">
+                    <div class="Pass">
+                        <div class="sno">2.12</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_12.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:14:28</div>
+                        <div class="desc">Screenshot For CCA CAD Initial Assessment Is Available</div>
+                    </div>
+                </div>
+                <div class="step" id="2.13">
+                    <div class="Done">
+                        <div class="sno">2.13</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:14:29</div>
+                        <div class="desc">CCA_Select_CIA_Assessment is clicked</div>
+                    </div>
+                </div>
+                <div class="step" id="2.14">
+                    <div class="Pass">
+                        <div class="sno">2.14</div>
+                        <div class="status">Pass</div>
+                        <div class="time">03:14:29</div>
+                        <div class="desc">Take Assessment Button Is Enabled</div>
+                    </div>
+                </div>
+                <div class="step" id="2.15">
+                    <div class="Done">
+                        <div class="sno">2.15</div>
+                        <div class="status">Done</div>
+                        <div class="time">03:14:32</div>
+                        <div class="desc">CCA_Take_Assessment_Button is clicked</div>
+                    </div>
+                </div>
+                <div class="step" id="2.16">
+                    <div class="Pass">
+                        <div class="sno">2.16</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_16.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:14:32</div>
+                        <div class="desc">CCA CAD Initial Assessment Page Header Is Matched</div>
+                    </div>
+                </div>
+                <div class="step" id="2.17">
+                    <div class="Pass">
+                        <div class="sno">2.17</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_17.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:14:39</div>
+                        <div class="desc">Selected the first two checkboxes</div>
+                    </div>
+                </div>
+                <div class="step" id="2.18">
+                    <div class="Pass">
+                        <div class="sno">2.18</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_18.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:14:54</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.19">
+                    <div class="Pass">
+                        <div class="sno">2.19</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_19.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:14:56</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.20">
+                    <div class="Pass">
+                        <div class="sno">2.20</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_20.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:16:10</div>
+                        <div class="desc">Selected the first two checkboxes</div>
+                    </div>
+                </div>
+                <div class="step" id="2.21">
+                    <div class="Pass">
+                        <div class="sno">2.21</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_21.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:16:32</div>
+                        <div class="desc">Selected the first two checkboxes</div>
+                    </div>
+                </div>
+                <div class="step" id="2.22">
+                    <div class="Pass">
+                        <div class="sno">2.22</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_22.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:17:16</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.23">
+                    <div class="Pass">
+                        <div class="sno">2.23</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_23.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:17:45</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.24">
+                    <div class="Pass">
+                        <div class="sno">2.24</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_24.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:18:14</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.25">
+                    <div class="Pass">
+                        <div class="sno">2.25</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_25.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:19:01</div>
+                        <div class="desc">Selected the first two checkboxes</div>
+                    </div>
+                </div>
+                <div class="step" id="2.26">
+                    <div class="Pass">
+                        <div class="sno">2.26</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_26.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:19:24</div>
+                        <div class="desc">Selected the first two checkboxes</div>
+                    </div>
+                </div>
+                <div class="step" id="2.27">
+                    <div class="Pass">
+                        <div class="sno">2.27</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_27.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:20:30</div>
+                        <div class="desc">Dropdown is visible</div>
+                    </div>
+                </div>
+                <div class="step" id="2.28">
+                    <div class="Pass">
+                        <div class="sno">2.28</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_28.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:20:31</div>
+                        <div class="desc">Selected the first Dropdown Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.29">
+                    <div class="Pass">
+                        <div class="sno">2.29</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_29.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:20:31</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.30">
+                    <div class="Pass">
+                        <div class="sno">2.30</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_30.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:20:33</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.31">
+                    <div class="Pass">
+                        <div class="sno">2.31</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_31.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:20:33</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.32">
+                    <div class="Pass">
+                        <div class="sno">2.32</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_32.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:20:33</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.33">
+                    <div class="Pass">
+                        <div class="sno">2.33</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_33.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:20:34</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.34">
+                    <div class="Pass">
+                        <div class="sno">2.34</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_34.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:21:09</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.35">
+                    <div class="Pass">
+                        <div class="sno">2.35</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_35.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:21:10</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.36">
+                    <div class="Pass">
+                        <div class="sno">2.36</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_36.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:21:31</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.37">
+                    <div class="Pass">
+                        <div class="sno">2.37</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_37.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:21:40</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.38">
+                    <div class="Pass">
+                        <div class="sno">2.38</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_38.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:21:47</div>
+                        <div class="desc">Selected the first two checkboxes</div>
+                    </div>
+                </div>
+                <div class="step" id="2.39">
+                    <div class="Pass">
+                        <div class="sno">2.39</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_39.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:22:01</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.40">
+                    <div class="Pass">
+                        <div class="sno">2.40</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_40.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:22:04</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.41">
+                    <div class="Pass">
+                        <div class="sno">2.41</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_41.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:22:32</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.42">
+                    <div class="Pass">
+                        <div class="sno">2.42</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_42.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:22:32</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.43">
+                    <div class="Pass">
+                        <div class="sno">2.43</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_43.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:22:33</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.44">
+                    <div class="Pass">
+                        <div class="sno">2.44</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_44.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:22:33</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.45">
+                    <div class="Pass">
+                        <div class="sno">2.45</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_45.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:22:33</div>
+                        <div class="desc">Selected the first Radio Button</div>
+                    </div>
+                </div>
+                <div class="step" id="2.46">
+                    <div class="Pass">
+                        <div class="sno">2.46</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_46.png" target="_blank" style="color:#4caf50">Pass</a>
+                        </div>
+                        <div class="time">03:22:42</div>
+                        <div class="desc">Selected the first two checkboxes</div>
+                    </div>
+                </div>
+                <div class="step" id="2.47">
+                    <div class="Fail">
+                        <div class="sno">2.47</div>
+                        <div class="status">
+                            <a class="sslink" href="ss_2_47.png" target="_blank" style="color:#f44336">Fail</a>
+                        </div>
+                        <div class="time">03:22:50</div>
+                        <div class="desc">Exception Occured due to : org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PH-212965-RP2WB', ip: '10.131.132.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\2129653\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2927da58b974304f9013e056c32e9aa0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
